@@ -175,7 +175,7 @@ function OverviewPage({ data, reload, setPage }) {
 }
 
 function Status({ value }) {
-  return value ? <p className={`status ${value.toLowerCase().includes('error') || value.toLowerCase().includes('failed') ? 'error' : ''`}>{value}</p> : null;
+  return value ? <p className={`status ${value.toLowerCase().includes('error') || value.toLowerCase().includes('failed') ? 'error' : ''}`}>{value}</p> : null;
 }
 
 function SectionManager({ sections, onChange, callApi }) {
