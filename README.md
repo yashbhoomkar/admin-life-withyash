@@ -118,9 +118,9 @@ The admin backend intentionally uses the collection shapes already present in `l
 - `sections`
 - `playlists`
 - `dialogues`
-- `visitorMessages`
-- `carPhotos`
-- `visitCounters`
+- `visitormessages` (Mongoose model: `VisitorMessage`)
+- `carphotos` (Mongoose model: `CarPhoto`)
+- `visitcounters` (Mongoose model: `VisitCounter`)
 
 No migration is required.
 
